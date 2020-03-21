@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "A discord bot to not miss any video, created with Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "biguint-format": "^1.0.0",
+    "discord.js": "^11.3.2",
+    "mongodb": "^3.5.5",
+    "node-cron": "^2.0.3",
+    "npm": "^6.13.4",
+    "request": "^2.88.0",
+    "twitter": "^1.7.1"
+  }
+}
